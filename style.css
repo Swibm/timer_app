@@ -1,0 +1,125 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: #f2f1ed;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px auto 0;
+}
+
+.input_block {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+
+.input_block h2 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input_block_part {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_block_part input {
+    margin: auto;
+}
+
+.content {
+    width: 900px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content h2 {
+    font-weight: 300;
+}
+
+.time_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.value {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #de4848;
+}
+
+.buttons_list button {
+    width: 100px;
+    border-color: #ffffff;
+    background: #ffffff;
+    font-size:15px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 1s;
+}
+
+.buttons_list button:hover {
+    background: #93412e;
+    cursor: pointer;
+}
+
+.buttons_list {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#button_insert_time {
+    margin-top: 20px;
+    width: 300px;
+    border-color: #ffffff;
+    background: #ffffff;
+    font-size:15px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 1s;
+}
+
+#button_insert_time:hover {
+    background: #93412e;
+    cursor: pointer;
+}
+
+.insert_time_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+

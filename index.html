@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="wraper">
+        <h1>Timer app</h1>
+            <div class="input_block">
+                <div class="input_block_part">
+                    <h2>Enter hours</h2>
+                    <input type="text" class="input_value" id="hours_input" name="hours_input" value="0">
+                </div>
+                <div class="input_block_part">
+                    <h2>Enter minutes</h2>
+                    <input type="text" class="input_value" id="minutes_input" name="minutes_input" value="0">
+                </div>
+                <div class="input_block_part">
+                    <h2>Enter seconds</h2>
+                    <input type="text" class="input_value" id="seconds_input" name="seconds_input" value="0">
+                </div>
+            </div>
+        <div class="insert_time_section">
+            <button class="button_func" id="button_insert_time">Insert entered time</button>
+        </div>
+        <div class="content">
+            <div class="time_block" id="hours_block">
+                <h2>HOURS</h2>
+                <div class="value" id="hours_value"></div>
+            </div>
+            <div class="time_block" id="minutes_block">
+                <h2>MINUTES</h2>
+                <div class="value" id="minutes_value"></div>                
+            </div>
+            <div class="time_block" id="seconds_block">
+                <h2>SECONDS</h2>
+                <div class="value" id="seconds_value"></div>
+            </div>
+        </div>
+        <div class="buttons_list">
+            <button class="button_func" id="button_start_timer">Start</button>
+            <button class="button_func" id="button_stop_timer">Stop</button>
+            <button class="button_func" id="button_reset_timer">Reset</button>
+        </div>
+    </div>
+    <script src="moment.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
